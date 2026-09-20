@@ -92,7 +92,7 @@ The browser smoke test starts a local form, exposes an existing Playwright brows
 From a GitHub checkout:
 
 ```text
-/marketplace add career-ops-hq/jevfiller
+/marketplace add todaymare/jevfiller
 /marketplace install jevfiller
 ```
 

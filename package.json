@@ -4,13 +4,13 @@
   "description": "A no-submit Playwright form filler for visible job applications.",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/career-ops-hq/jevfiller",
+  "homepage": "https://github.com/todaymare/jevfiller",
   "repository": {
     "type": "git",
-    "url": "https://github.com/career-ops-hq/jevfiller.git"
+    "url": "https://github.com/todaymare/jevfiller.git"
   },
   "bugs": {
-    "url": "https://github.com/career-ops-hq/jevfiller/issues"
+    "url": "https://github.com/todaymare/jevfiller/issues"
   },
   "engines": {
     "node": ">=22"
