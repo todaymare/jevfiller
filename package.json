@@ -1,0 +1,47 @@
+{
+  "name": "@career-ops/jevfiller",
+  "version": "0.2.0",
+  "description": "A no-submit Playwright form filler for visible job applications.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/career-ops-hq/jevfiller",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/career-ops-hq/jevfiller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/career-ops-hq/jevfiller/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "test:browser": "node --test test/browser.test.mjs",
+    "check": "node --check tools/jevfiller.mjs && node --check src/*.mjs && node --check test/*.mjs",
+    "pack:check": "npm pack --dry-run"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0",
+    "playwright-core": "^1.61.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.0"
+  },
+  "files": [
+    "src/",
+    "tools/",
+    "skills/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "omp": {
+    "tools": [
+      "tools/jevfiller.mjs"
+    ],
+    "skills": [
+      "skills/jevfiller/SKILL.md"
+    ]
+  }
+}

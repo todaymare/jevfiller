@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jevfiller",
+  "owner": {
+    "name": "Career-Ops"
+  },
+  "metadata": {
+    "description": "A no-submit Playwright form filler for visible job applications.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "jevfiller",
+      "description": "Attach to an existing Playwright browser and fill a visible application without submitting it.",
+      "version": "0.2.0",
+      "source": ".",
+      "category": "productivity",
+      "keywords": ["career", "applications", "browser", "playwright", "forms", "human-in-the-loop"],
+      "homepage": "https://github.com/career-ops-hq/jevfiller",
+      "repository": "https://github.com/career-ops-hq/jevfiller"
+    }
+  ]
+}
